@@ -1,0 +1,85 @@
+h1 {
+    color: #EBEBEC;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 7rem;
+}
+
+h2 {
+    color: #EBEBEC;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: lowercase;
+    font-size: 1.6rem;
+    margin-top: 2em;
+    font-weight: 100;
+}
+
+body {
+    background-color: #313343;
+    margin-right: 7em;
+    margin-left: 7em;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333646;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.flexDiv {
+    text-align: center;
+    flex: 1;
+
+}
+
+div {
+    padding: 30px;
+    align-items: center;
+}
+
+.resetButton {
+    background-color: #e78e00;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  .resetButton:hover {
+    background-color: #d25603;
+  }
+
+  /* /////// */
+
+  .incrementButton {
+    background-color: #4249d4; /* Green */
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  .incrementButton:hover {
+    background-color: #1b22ab;
+  }
+  
+
+@media (max-width: 800px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+}
